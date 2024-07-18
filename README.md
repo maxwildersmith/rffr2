@@ -1,6 +1,6 @@
-# Nerfies
+# Radiance Fields for Robotics
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [Radiance fields for robotics website](https://rffr.github.io).
 
 If you find Nerfies useful for your work please cite:
 ```
