@@ -155,3 +155,9 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+table th {
+  width: 25%;
+  text-align: center !important;
+
+}
