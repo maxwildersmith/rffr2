@@ -222,7 +222,7 @@
           <h3 class="title is-3">Pipeline</h3>
 
           <img src="./static/images/Pipeline.png" />
-          
+
           <h2 class="subtitle has-text-centered">
             Extend the existing ROS teleoperation pipeline to allow robotic data to feed into NerfStudio for Radiance
             generation, as well as a visualization suite to view the reconstructions.
@@ -233,7 +233,7 @@
     </div>
   </section>
 
-  <section class="section"> 
+  <section class="section">
     <div class="container is-max-desktop has-text-centered">
 
       <div class="columns is-centered">
@@ -248,40 +248,43 @@
           </div>
         </div>
 
-       
+
 
       </div>
+      
       <div class="columns is-centered">
 
 
         <div class="column is-5">
-          <h4 class="title is-4">Panda Arm</h4>
-          
+          <h4 class="title is-4">Static Arm</h4>
+
           <img src="./static/images/panda.jpg" alt="Panda" />
 
           <p>
-            The Panda arm is mounted to a table providing very accurate poses, but limited mobility.
+            The Franka Panda arm is mounted to a table providing very accurate poses, but limited mobility when
+            capturing a table top scene.
           </p>
 
         </div>
         <div class="column is-5">
-          <h4 class="title is-4">Anymal Quadruped</h4>
-          
-          <video id="walk-video" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/walk_stable.mp4" type="video/mp4">
-          </video>
+          <h4 class="title is-4">Mobile Base</h4>
+
+          <img src="./static/images/anymal.jpg" alt="anymal" />
+
 
           <p>
-            The Anymal quadruped is a mobile base which was able to capture a room with a wooden pedistal in the middle, but had noisy poses.
+            The Anymal quadruped is a mobile base which was able to capture a room with a wooden pedistal in the middle,
+            but had noisy poses during locomotion.
           </p>
         </div>
         <div class="column is-5">
-          <h4 class="title is-4">ALMA Manipulator</h4>
-          
+          <h4 class="title is-4">Mobile Arm</h4>
+
           <img src="./static/images/almaswitch.jpg" alt="Alma" />
 
           <p>
-            The ALMA system has utilizes and arm on a mobile base, providing a good balance of mobility and accuracy to capture a cabinet.
+            The ALMA system has utilizes and arm on a mobile base, providing a good balance of mobility and accuracy to
+            capture a cabinet.
           </p>
         </div>
 
@@ -339,6 +342,23 @@
 
 
       </div>
+      <div class="container">
+
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item item-steve">
+            asdf
+            <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/vr.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-chair-tp">
+            <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/vox.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+
   </section>
 
   <!-- Viz -->
@@ -379,30 +399,12 @@
 
             <p>
               For more immersive interaction, a VR visualization suite can be used to view the Radiance Fields and
-              robots in 3D.
+              robots in 3D. The VR scene also displays
             </p>
 
           </div>
         </div>
       </div>
-
-    </div>
-  </section>
-
-
-  <section class="section">
-    <div class="container is-max-desktop">
-      <!-- Concurrent Work. ? -->
-      <div class="columns is-centered">
-        <div class="column is-full-width">
-          <h2 class="title is-3">Related Works</h2>
-
-          <div class="content has-text-justified">
-           
-          </div>
-        </div>
-      </div>
-      <!--/ Concurrent Work. -->
 
     </div>
   </section>
