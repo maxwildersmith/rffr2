@@ -45,17 +45,6 @@
             <i class="fas fa-home"></i>
           </span>
         </a>
-
-        <!-- <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            More Radiance Fields for Robotics
-          </a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item" href="https://leggedrobotics.github.io/rffr.github.io/">
-              Radiance Fields for Robotic Teleoperation
-            </a>
-          </div>
-        </div> -->
       </div>
 
     </div>
@@ -82,11 +71,17 @@
               <span class="author-block"><sup>1</sup>ETH Zürich</span>
             </div>
 
+            <div class="is-size-5 publication-authors">
+              <span class="publication-venue">
+                Accepted to IROS 2024 <span class="publication-awards"> [Oral]</span>
+              </span>
+            </div>
+
             <div class="column has-text-centered">
               <div class="publication-links">
                 <!-- PDF Link. -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/pdf/" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://arxiv.org/pdf/2407.20194" class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
@@ -94,7 +89,7 @@
                   </a>
                 </span>
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://arxiv.org/abs/2407.20194" class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
                       <i class="ai ai-arxiv"></i>
                     </span>
@@ -103,7 +98,7 @@
                 </span>
                 <!-- Video Link. -->
                 <span class="link-block">
-                  <a href="https://www.youtube.com/" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://youtu.be/NR-X1FETJj8" class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
                       <i class="fab fa-youtube"></i>
                     </span>
@@ -112,8 +107,7 @@
                 </span>
                 <!-- Code Link. -->
                 <span class="link-block">
-                  <a href="https://github.com/leggedrobotics/rf_ros"
-                    class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://github.com/leggedrobotics/rf_ros" class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
@@ -121,8 +115,7 @@
                   </a>
                 </span>
                 <span class="link-block">
-                  <a href="https://github.com/leggedrobotics/unity_ros_teleoperation"
-                    class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://github.com/leggedrobotics/unity_ros_teleoperation" class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
@@ -202,7 +195,7 @@
         <div class="column is-four-fifths">
           <h2 class="title is-3">Video</h2>
           <div class="publication-video">
-            <iframe src="https://www.youtube.com/embed/" frameborder="0" allow="autoplay; encrypted-media"
+            <iframe src="https://www.youtube.com/embed/NR-X1FETJj8" frameborder="0" allow="autoplay; encrypted-media"
               allowfullscreen></iframe>
           </div>
         </div>
@@ -341,22 +334,6 @@
 
 
       </div>
-      <div class="container">
-
-        <div id="results-carousel" class="carousel results-carousel">
-          <div class="item item-steve">
-            asdf
-            <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/vr.mp4" type="video/mp4">
-            </video>
-          </div>
-          <div class="item item-chair-tp">
-            <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/vox.mp4" type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
 
   </section>
 
@@ -393,7 +370,7 @@
             <h4 class="title is-4">VR Scene</h4>
 
             <video id="vr-video" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/vr.mp4" type="video/mp4">
+              <source src="./static/videos/vr_viz.mp4" type="video/mp4">
             </video>
 
             <p>
@@ -412,7 +389,12 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>{}</code></pre>
+      <pre><code>@article{wildersmith2024rfteleoperation,
+  author    = {Maximum Wilder-Smith and Vaishakh Patil and Marco Hutter},
+  title     = {Radiance Fields for Robotic Teleoperation},
+  journal   = {arXiv},
+  year      = {2024},
+}</code></pre>
     </div>
   </section>
 
@@ -420,10 +402,10 @@
   <footer class="footer">
     <div class="container">
       <div class="content has-text-centered">
-        <a class="icon-link" href="./static/videos/rffrt.pdf">
+        <a class="icon-link" href="./static/videos/RadianceFieldsForTeleoperation.pdf">
           <i class="fas fa-file-pdf"></i>
         </a>
-        <a class="icon-link" href="https://github.com/leggedrobotics" class="external-link" disabled>
+        <a class="icon-link" href="https://leggedrobotics.github.io/rffr.github.io/" class="external-link" disabled>
           <i class="fab fa-github"></i>
         </a>
       </div>
