@@ -7,23 +7,23 @@
     content="Radiance Fields for Robotic Teleoperation: a connection between Radiance Field generation and ROS for teleoperation.">
   <meta name="keywords" content="Gaussian Splatting, robotics, ROS">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Radiance Fields for Robotic Teleoperation</title>
+  <title>FOCI: Trajectory Optimization in Gaussian Splats</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
-  <link rel="stylesheet" href="/shared/css/bulma.min.css">
-  <link rel="stylesheet" href="/shared/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="/shared/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="/shared/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="../../shared/css/bulma.min.css">
+  <link rel="stylesheet" href="../../shared/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="../../shared/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="../../shared/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="/shared/css/index.css">
-  <link rel="icon" href="/shared/images/favicon.ico">
+  <link rel="stylesheet" href="../../shared/css/index.css">
+  <link rel="icon" href="../../shared/favicon.ico">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="/shared/js/fontawesome.all.min.js"></script>
-  <script src="/shared/js/bulma-carousel.min.js"></script>
-  <script src="/shared/js/bulma-slider.min.js"></script>
-  <script src="/shared/js/index.js"></script>
+  <script defer src="../../shared/js/fontawesome.all.min.js"></script>
+  <script src="../../shared/js/bulma-carousel.min.js"></script>
+  <script src="../../shared/js/bulma-slider.min.js"></script>
+  <script src="../../shared/js/index.js"></script>
 </head>
 
 <body>
@@ -136,7 +136,7 @@
     <div class="container is-max-desktop">
       <div class="hero-body">
         <video id="hero-video" autoplay controls muted loop playsinline height="100%">
-          <source src="./static/videos/walk_stable.mp4" type="video/mp4">
+          <source src="./videos/walk_stable.mp4" type="video/mp4">
         </video>
         <h2 class="subtitle has-text-centered">
           Leverage Radiance Fields for robotic teleoperation by feeding live ROS data into Radiance Field training, and visualization. Compatible with standard RViz systems or with a novel VR visualization.
@@ -212,7 +212,7 @@
         <div class="column">
           <h3 class="title is-3">Pipeline</h3>
 
-          <img src="./static/images/Pipeline.png" />
+          <img src="./images/Pipeline.png" />
 
           <h2 class="subtitle has-text-centered">
             Extend the existing ROS teleoperation pipeline to allow robotic data to feed into NerfStudio for Radiance
@@ -249,7 +249,7 @@
         <div class="column is-5">
           <h4 class="title is-4">Static Arm</h4>
 
-          <img src="./static/images/panda.jpg" alt="Panda" />
+          <img src="./images/panda.jpg" alt="Panda" />
 
           <p>
             The Franka Panda arm is mounted to a table providing very accurate poses, but limited mobility when
@@ -260,7 +260,7 @@
         <div class="column is-5">
           <h4 class="title is-4">Mobile Base</h4>
 
-          <img src="./static/images/anymal.jpg" alt="anymal" />
+          <img src="./images/anymal.jpg" alt="anymal" />
 
 
           <p>
@@ -271,7 +271,7 @@
         <div class="column is-5">
           <h4 class="title is-4">Mobile Arm</h4>
 
-          <img src="./static/images/almaswitch.jpg" alt="Alma" />
+          <img src="./images/almaswitch.jpg" alt="Alma" />
 
           <p>
             The ALMA system has utilizes and arm on a mobile base, providing a good balance of mobility and accuracy to
@@ -309,22 +309,22 @@
               </thead>
               <tbody>
                 <tr>
-                  <td><img src="./static/images/panda-gt.png" alt="Panda GT"></td>
-                  <td><img src="./static/images/panda-vox.jpg" alt="Panda Voxblox"></td>
-                  <td><img src="./static/images/panda-nerf.png" alt="Panda NeRF"></td>
-                  <td><img src="./static/images/panda-splat.png" alt="Panda 3DGS"></td>
+                  <td><img src="./images/panda-gt.png" alt="Panda GT"></td>
+                  <td><img src="./images/panda-vox.jpg" alt="Panda Voxblox"></td>
+                  <td><img src="./images/panda-nerf.png" alt="Panda NeRF"></td>
+                  <td><img src="./images/panda-splat.png" alt="Panda 3DGS"></td>
                 </tr>
                 <tr>
-                  <td><img src="./static/images/anymal-gt.png" alt="Anymal GT"></td>
-                  <td><img src="./static/images/anymal-vox.jpg" alt="Anymal Voxblox"></td>
-                  <td><img src="./static/images/anymal-nerf.png" alt="Anymal NeRF"></td>
-                  <td><img src="./static/images/anymal-splat.png" alt="Anymal 3DGS"></td>
+                  <td><img src="./images/anymal-gt.png" alt="Anymal GT"></td>
+                  <td><img src="./images/anymal-vox.jpg" alt="Anymal Voxblox"></td>
+                  <td><img src="./images/anymal-nerf.png" alt="Anymal NeRF"></td>
+                  <td><img src="./images/anymal-splat.png" alt="Anymal 3DGS"></td>
                 </tr>
                 <tr>
-                  <td><img src="./static/images/alma-gt.png" alt="Alma GT"></td>
-                  <td><img src="./static/images/alma-vox.jpg" alt="Alma Voxblox"></td>
-                  <td><img src="./static/images/alma-nerf.png" alt="Alma NeRF"></td>
-                  <td><img src="./static/images/alma-splat.png" alt="Alma 3DGS"></td>
+                  <td><img src="./images/alma-gt.png" alt="Alma GT"></td>
+                  <td><img src="./images/alma-vox.jpg" alt="Alma Voxblox"></td>
+                  <td><img src="./images/alma-nerf.png" alt="Alma NeRF"></td>
+                  <td><img src="./images/alma-splat.png" alt="Alma 3DGS"></td>
                 </tr>
               </tbody>
             </table>
@@ -353,7 +353,7 @@
             <h4 class="title is-4">RViz</h4>
 
             <video id="rviz-video" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/rviz.mp4" type="video/mp4">
+              <source src="./videos/rviz.mp4" type="video/mp4">
             </video>
 
             <p>
@@ -369,7 +369,7 @@
             <h4 class="title is-4">VR Scene</h4>
 
             <video id="vr-video" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/vr_viz.mp4" type="video/mp4">
+              <source src="./videos/vr_viz.mp4" type="video/mp4">
             </video>
 
             <p>
@@ -401,7 +401,7 @@
   <footer class="footer">
     <div class="container">
       <div class="content has-text-centered">
-        <a class="icon-link" href="./static/videos/RadianceFieldsForTeleoperation.pdf">
+        <a class="icon-link" href="./RadianceFieldsForTeleoperation.pdf">
           <i class="fas fa-file-pdf"></i>
         </a>
         <a class="icon-link" href="https://leggedrobotics.github.io/rffr.github.io/" class="external-link" disabled>
